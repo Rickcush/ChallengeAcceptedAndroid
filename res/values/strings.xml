@@ -3,7 +3,7 @@
 
     <string name="app_name">ChallengeAccepted</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="title">Challenge Accepted</string>
 	
     <string name="addButtonDesc">Add Challenge Button</string>
     <string name="viewButtonDesc">View Challenges Button</string>
