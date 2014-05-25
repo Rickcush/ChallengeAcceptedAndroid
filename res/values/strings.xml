@@ -5,18 +5,18 @@
     <string name="action_settings">Settings</string>
     <string name="title">Challenge Accepted</string>
     
+    <string name="sign_up_or_join">Sign Up or Join</string>
     <string name="user">Username</string>
     <string name="pass">Password</string>
     <string name="login">Login</string>
-    <string name="createAcc">Create Account</string>
     
-    <string name="challName">Challenge Name</string>
+    <string name="chall_name">Challenge Name</string>
     <string name="desc">Description</string>
     <string name="name">Name</string>
     <string name="bounty">Bounty</string>
     <string name="create">Create</string>
 	
-    <string name="addButtonDesc">Add Challenge Button</string>
-    <string name="viewButtonDesc">View Challenges Button</string>
-    <string name="settingsButtonDesc">Settings Button</string>
+    <string name="add_button_desc">Add Challenge Button</string>
+    <string name="view_button_desc">View Challenges Button</string>
+    <string name="settings_button_desc">Settings Button</string>
 </resources>

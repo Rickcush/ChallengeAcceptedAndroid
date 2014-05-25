@@ -1,20 +1,30 @@
 package com.challengeaccepted.challengeaccepted;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
-
+	
+	boolean mLoggedIn = false;
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
         if (savedInstanceState != null) {
-        	 
+        	String authToken = savedInstanceState.getString("authToken");
+        	if(authToken == null) {
+        		Intent i = new Intent(MainActivity.this, LoginActivity.class);
+        		startActivity(i);
+        	} else {
+        		
+        	}
     	}
-
+    	
+        
     }
 
 
