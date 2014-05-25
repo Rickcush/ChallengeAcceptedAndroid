@@ -6,7 +6,9 @@
     <string name="title">Challenge Accepted</string>
     
     <string name="sign_up_or_join">Sign Up or Join</string>
-    <string name="user">Username</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
     <string name="pass">Password</string>
     <string name="login">Login</string>
     
